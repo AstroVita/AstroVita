@@ -1,0 +1,69 @@
+H1,h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps slashed-zero;
+}
+h1{
+    font-size: 70px;
+    text-decoration: underline
+}
+h2{
+    font-size: 40px;
+    text-decoration: underline
+}
+h3,h4{
+    color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h3{
+  text-decoration: underline
+}
+p{
+  color: antiquewhite;
+  font-family: serif;
+  font-size: 17px;
+}
+li,li::marker{
+    color: antiquewhite;
+    text-decoration: none
+}
+.glow {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+ @keyframes glow {
+    from {
+      text-shadow: 0 0 15px #6899c9, 0 0 30px #4568dc, 0 0 45px #6168d1, 0 0 60px #8569c3 ;
+    }
+    
+    to {
+      text-shadow: 0 0 75px #8569c3, 0 0 60px #6168d1, 0 0 45px  #4568dc ;
+    }
+  }
+body{
+    background:linear-gradient(270deg, #00050e 0%, #030241 100%);
+   
+}
+div{
+  background-color: #ffffff4a;
+  shape-rendering: crispEdges;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #cacaca;
+}
+tr:nth-child(odd) {
+  color: #fff;
+}
